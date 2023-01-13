@@ -1,8 +1,4 @@
 
-section:first-child{
-    margin: 0 0 20px;
-}
-
 article{
     display: inline-grid;
     justify-items: start;
@@ -17,10 +13,14 @@ article{
 
 #little-about{
     display: flex;
-    justify-content: space-around;
     flex-direction: row;
     text-align: left;
     gap: 50px;
+}
+
+#little-about img{
+    width: 320px;
+    box-shadow: 3px 3px 10px black;
 }
 
 #little-about h2{
@@ -38,18 +38,13 @@ article{
     font-size: 20px;
     font-weight: normal;
     width: 75%;
-}
-
-#little-about img{
-    width: 320px;
-    box-shadow: 3px 3px 10px black;
+    margin-bottom: 50px;
 }
 
 #little-contact{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     text-align: left;
     gap: 50px;
 }
@@ -66,7 +61,7 @@ article{
 }
 
 #little-contact h3{
-    font-size: 24px;
+    font-size: 28px;
     width: 75%;
     margin-bottom: 0;
 }
@@ -75,6 +70,7 @@ article{
     font-size: 20px;
     font-weight: normal;
     width: 75%;
+    margin-bottom: 50px;
 }
 
 /*Classes*/
@@ -91,36 +87,16 @@ article{
     color: #B35C00;
 }
 
-.presentation-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    background-image: url("/img/comida-principal.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    text-align: left;
+.presentation-section-home{
+    background-image: url(/img/comida-principal.jpg);
 }
 
-.presentation-section h1{
-    font-size: 88px;
-    color: white;
-    margin: 50px 0 30px 20px;
-}
-
-.presentation-section h2{
+.presentation-section-home h2{
     font-size: 40px;
     color:#ff8400;
     margin: 20px 0 30px 20px;
     width: 30%;
     font-weight: bolder;
-}
-
-.presentation-section img{
-    width: 50%;
-    height: 80%;
-    border-radius: 20px;
 }
 
 .short-menu{
@@ -142,8 +118,9 @@ article{
 }
 
 .short-menu h5{
-    font-size: 18px;
-    width: 64%;
+    font-size: 20px;
+    font-weight: normal;
+    width: 75%;
     margin-bottom: 100px;
 }
 
@@ -162,7 +139,7 @@ article{
 
 .short-menu span p{
     font-style: italic;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .link-button{

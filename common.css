@@ -51,6 +51,10 @@ section{
     padding: 5% 5%;
 }
 
+section:first-child{
+    margin: 0 0 20px;
+}
+
 footer{
     display: flex;
     justify-content: center;
@@ -75,4 +79,21 @@ footer{
 .logo span{
     font-family: 'Berkshire Swash', cursive;
     color: #B35C00;
+}
+
+.presentation-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: left;
+}
+
+.presentation-section h1{
+    font-size: 88px;
+    color: white;
+    margin: 50px 0 30px 20px;
 }

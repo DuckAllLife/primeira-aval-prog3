@@ -24,8 +24,8 @@ header{
 }
 
 nav{
-    display: inline;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 nav a:first-child{
@@ -55,6 +55,21 @@ section:first-child{
     margin: 0 0 20px;
 }
 
+h2{
+    color: #ff8400;
+    font-size: 48px;
+}
+
+h3{
+    font-size: 28px;
+}
+
+h5{
+    font-size: 20px;
+    font-weight: normal;
+    width: 75%;
+}
+
 footer{
     display: flex;
     justify-content: center;
@@ -73,11 +88,10 @@ footer{
     font-family: 'Berkshire Swash', cursive;
     color: #FF8400;
     font-size: 36px;
-    display: inline;
+    margin: 0;
 }
 
 .logo span{
-    font-family: 'Berkshire Swash', cursive;
     color: #B35C00;
 }
 
@@ -93,7 +107,40 @@ footer{
 }
 
 .presentation-section h1{
-    font-size: 88px;
+    font-size: 128px;
     color: white;
     margin: 50px 0 30px 20px;
+}
+
+.little-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+    gap: 50px;
+}
+
+.little-row h2{
+    margin-top: 0;
+}
+
+.little-row h3{
+    width: 75%;
+    margin-bottom: 0;
+}
+
+.little-row h5{
+    font-size: 20px;
+    font-weight: normal;
+    width: 75%;
+    margin-bottom: 50px;
+}
+
+.link-button{
+    background-color: #FF8400;
+    color: white;
+    text-decoration: none;
+    border-radius: 24px;
+    font-size: 20px;
+    padding: 16px;
 }

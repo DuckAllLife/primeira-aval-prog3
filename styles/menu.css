@@ -1,6 +1,75 @@
+/*Tags*/
+
+article{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+aside span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h5{
+    font-style: italic;
+}
+
+h5:hover{
+    font-weight: bolder;
+}
+
+/*IDs*/
+
+#pasta{
+    background-image: url(../img/foods/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg);
+}
+
+#meat{
+    background-image: url(../img/foods/grilled-beef-steak-dark-wooden-surface.jpg);
+}
+
+#salad{
+    background-image: url(../img/foods/plate4.jpg);
+}
 
 /*Classes*/
 
 .presentation-section-menu{
     background-image: url(/img/restaurant/wooden-board-empty-table-top-blurred-background.jpg);
+}
+
+.little-row{
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.div-image{
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    border-radius: 20px;
+    box-shadow: 40px 40px 1px black;
+}
+
+.price{
+    color: #B35C00;
+    font-family: "Sofia Sans";
+    font-weight: 900;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.price::before{
+    content: "$";
 }

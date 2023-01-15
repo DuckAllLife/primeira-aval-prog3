@@ -24,7 +24,7 @@ aside #img{
 
 #presentation-section-about{
     justify-content: space-between;
-    background-image: url(../img/about/female-chef-adding-sauce-dish.jpg);
+    background-image: url(../img/about/about-image.jpg);
 }
 
 #section-chefs{
@@ -32,27 +32,27 @@ aside #img{
 }
 
 #head-chef{
-    background-image: url("../img/about/chefs/confident-young-handsome-cook-chef-uniform-standing-with-closed-posture-isolated-orange-wall.jpg");
+    background-image: url("../img/about/chefs/head-chef-image.jpg");
     background-size: cover;
 }
 
 #sous-chef{
-    background-image: url("../img/about/chefs/portrait-smiling-chef-uniform.jpg");
+    background-image: url("../img/about/chefs/sous-chef-image.png");
     background-size: cover;
 }
 
 #restaurant-manager{
-    background-image: url("../img/about/chefs/image-cheerful-young-cook-uniform-standing-isolated-grey-wall.jpg");
+    background-image: url("../img/about/chefs/restaurant-manager-image.jpg");
     background-size: cover;
 }
 
 #dessert-expert{
-    background-image: url("../img/about/chefs/front-view-young-female-cook-white-cook-suit-white-cap-posing-holding-big-silver-spoon-smiling-happy-expression.jpg");
+    background-image: url("../img/about/chefs/dessert-expert-image.jpg");
     background-size: cover;
 }
 
 #pasta-expert{
-    background-image: url("../img/about/chefs/female-chef-white-uniform-standing-with-crossed-arms-looking-cheery_176474-13402.png");
+    background-image: url("../img/about/chefs/pasta-expert-image.png");
     background-size: cover;
 }
 

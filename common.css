@@ -16,25 +16,12 @@ body{
 }
 
 header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 0 5%;
-    background-color: #b35c0021;
-}
-
-nav{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-nav a:first-child{
-    color: #FF8400;
 }
 
 nav a{
-    color: black;
-    font-size: 20px;
+    color: #ff8400;
+    font-size: 24px;
     font-weight: 600;
     text-decoration: none;
     padding-left: 30px;
@@ -85,12 +72,16 @@ footer{
 
 /*IDs*/
 
+#current-page{
+    color: #B35C00;
+}
+
 /*Classes*/
 
 .logo{
     font-family: 'Berkshire Swash', cursive;
     color: #FF8400;
-    font-size: 36px;
+    font-size: 52px;
     margin: 0;
 }
 
@@ -101,12 +92,19 @@ footer{
 .presentation-section{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
     text-align: left;
+    background-position-y: calc(100%/10);
+    height: 100vh;
+}
+
+.presentation-section div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .presentation-section h1{

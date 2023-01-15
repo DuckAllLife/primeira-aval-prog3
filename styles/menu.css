@@ -30,21 +30,22 @@ h5:hover{
 /*IDs*/
 
 #pasta{
-    background-image: url(../img/foods/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg);
+    background-image: url(../img/menu/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg);
 }
 
 #meat{
-    background-image: url(../img/foods/grilled-beef-steak-dark-wooden-surface.jpg);
+    background-image: url(../img/menu/grilled-beef-steak-dark-wooden-surface.jpg);
 }
 
 #salad{
-    background-image: url(../img/foods/plate4.jpg);
+    background-image: url(../img/menu/plate4.jpg);
 }
 
 /*Classes*/
 
 .presentation-section-menu{
-    background-image: url(/img/restaurant/wooden-board-empty-table-top-blurred-background.jpg);
+    justify-content: space-between;
+    background-image: url(/img/menu/wooden-board-empty-table-top-blurred-background.jpg);
 }
 
 .little-row{

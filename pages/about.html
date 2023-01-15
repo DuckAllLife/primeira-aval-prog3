@@ -5,23 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../common.css">
+    <link rel="stylesheet" href="../styles/about.css">
     <title>Menu</title>
 </head>
 <body>
-    <header>
-        <span class="logo">
-            <p><span>Toge</span>ther</p>
-        </span>
-        <nav>
-            <a href="/index.html">Início</a>
-            <a href="/pages/menu.html">Menu</a>
-            <a href="/pages/about.html">Sobre</a>
-            <a href="/pages/contact.html">Contato</a>
-            
-        </nav>
+    <header id="presentation-section-about" class="presentation-section"> 
+        <div>
+            <span class="logo">
+                <p><span>Toge</span>ther</p>
+            </span>
+            <nav>
+                <a href="../index.html">Início</a>
+                <a href="menu.html">Menu</a>
+                <a id="current-page" href="about.html">Sobre</a>
+                <a href="contact.html">Contato</a>
+            </nav>
+        </div>
+            <h1>Sobre Nós</h1>
     </header>
     <main>
-
+        <section class="little-row">
+            <div>
+                <h2>Seja Bem Vindo</h2>
+                <h3>Entregamos experiências através da culinária desde 1975.</h3>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. A magnam quis explicabo commodi odit sunt impedit soluta ab fuga, obcaecati velit alias error tempore saepe culpa, voluptatem magni, quae aliquid?</h5>
+            </div>
+            <aside id="simple-grid">
+                <img id="img" src="../img/about/top-half-view-spaghetti-frying-pan-wooden-spoon-wood-board-dark-surface.jpg" alt="Panela com macarrão e colher do lado">
+                <div>
+                    <img src="../img/about/wide-selective-closeup-shot-illuminated-light-bulbs-hanging-from-ceiling.jpg" alt="lampadas vintages">
+                    <img src="../img/about/waiter-taking-order-from-woman.jpg" alt="Garçom anotando pedindo de uma mulher">
+                </div>
+            </aside>
+        </section>
+        <section id="section-chefs">
+            <h2>Nossos Chefes</h2>
+            <article class="chef-grid">
+                <div class="chef-grid-column">
+                    <div id="head-chef">
+                        <h3>Ruben Ayers</h3>
+                        <h5>Head Chef</h5>
+                    </div>
+                    <div id="sous-chef">
+                        <h3>Ryan Wood</h3>
+                        <h5>Sous Chef</h5>
+                    </div>
+                    <div id="restaurant-manager">
+                        <h3>Joshua Brown</h3>
+                        <h5>Restaurant Manager</h5>
+                    </div>
+                </div>
+                <div class="chef-grid-column">
+                    <div id="dessert-expert">
+                        <h3>Julie Smith</h3>
+                        <h5>Dessert Expert</h5>
+                    </div>
+                    <div id="pasta-expert">
+                        <h3>Wanda Hendricks</h3>
+                        <h5>Pasta Expert</h5>
+                    </div>
+                </div>
+            </article>
+        </section>
     </main>
     <footer>
         <p>Copyright &#169; 2023 Together Restaurant | Powered by Together Restaurant</p>

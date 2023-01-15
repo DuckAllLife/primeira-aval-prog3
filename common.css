@@ -27,6 +27,10 @@ nav a{
     padding-left: 30px;
 }
 
+nav a:hover{
+    color: #e67802;
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -74,6 +78,10 @@ footer{
 
 #current-page{
     color: #B35C00;
+}
+
+#current-page:hover{
+    color: #814301;
 }
 
 /*Classes*/
@@ -144,4 +152,8 @@ footer{
     border-radius: 24px;
     font-size: 20px;
     padding: 16px;
+}
+
+.link-button:hover{
+    background-color: #e67802;
 }

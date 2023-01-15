@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../common.css">
     <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Menu</title>
 </head>
 <body>
@@ -24,8 +25,34 @@
             <h1>Contato</h1>
     </header>
     <main>
-        <section>
-
+        <section class="little-row">
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2477.58528245517!2d0.06313323100899712!3d51.612487014571094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a13901a94e6d%3A0x186f43ef18ad8a14!2sHigh%20Rd%2C%20Chigwell%20IG7%205BN%2C%20Reino%20Unido!5e0!3m2!1spt-BR!2sbr!4v1673822843812!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div id="time-div">
+                <h2>Horários</h2>
+                <h3>Segunda - Sexta | 9AM - 22PM</h3>
+                <h3>Sábado - Domingo | 9AM - 2AM</h3>
+            </div>
+        </section>
+        <section class="little-row">
+            <div>
+                <h2>Nossa Localização</h2>
+                <h3>
+                    <span class="material-symbols-outlined">
+                        location_on
+                    </span>
+                    223-207 High Rd, Chigwell, Reino Unido
+                </h3>
+            </div>
+            <div id="div-inputs">
+                <h3>Para Agendamentos Online</h3>
+                <input type="text" name="name" id="name-input" placeholder="Nome">
+                <input type="email" name="email" id="email-input" placeholder="Email">
+                <input type="tel" name="tel" id="tel-input" placeholder="Número Para Contato">
+                <textarea name="mensagem" id="" cols="20" rows="10" placeholder="Mensagem"></textarea>
+                <input class="link-button" type="submit" value="Enviar Mensagem">
+            </div>
         </section>
     </main>
     <footer>

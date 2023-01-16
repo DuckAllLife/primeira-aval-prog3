@@ -11,7 +11,6 @@
 
 body{
     margin: 0;
-    width: 100vw;
 }
 
 header div{
@@ -66,22 +65,49 @@ h5{
 
 footer{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
     padding: 0 5%;
     background-color: #b35c0021;
     color: black;
     font-weight: 600;
 }
 
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 24px;
+    gap: 8px;
+}
+
+footer div a{
+    color: #ff8400;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+footer div a:hover{
+    color: #e67802;
+}
+
+footer > span{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
 /*IDs*/
 
 #current-page{
-    color: #ffce99;
+    color: #fec88d;
 }
 
 #current-page:hover{
-    color: #e3b788;
+    color: #e2b17e;
 }
 
 /*Classes*/
@@ -103,7 +129,6 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: left;
-    background-position-y: calc(100%/10);
     height: 45rem;
 }
 

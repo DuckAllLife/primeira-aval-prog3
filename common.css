@@ -45,6 +45,10 @@ section:first-child{
     margin: 0 0 20px;
 }
 
+section:last-child{
+    margin: 0px;
+}
+
 h2{
     color: #ff8400;
     font-size: 48px;

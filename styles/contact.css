@@ -27,7 +27,21 @@ textarea{
     background-image: url(../img/contact/contact-image.jpg);
 }
 
+#presentation-section-contact div{
+    width: auto;
+}
+
 #time-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/contact/group-friends-eating-restaurant-image.jpg),  rgba(0, 0, 0, 1);
+    background-size: cover;
+    background-position-y: 100%;
+}
+
+#text-div{
     display: flex;
     justify-content: end;
     align-items: center;
@@ -35,29 +49,28 @@ textarea{
     text-align: center;
     color: #fff;
     height: 450px;
-    background-image: url(../img/contact/group-friends-eating-restaurant-image.jpg);
-    background-size: cover;
-    background-position-y: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 #time-div h2{
     font-family: "Berkshire Swash";
-    color: #fff
+    color: #fff;
+    margin-top: 8px;
 }
 
 #time-div h3:last-of-type{
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 #div-inputs{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 20px;
+    gap: 24px;
 }
 
 #mensage-input{
-    margin-bottom: 20px;
+    margin-bottom: 24px;
 }
 
 /*Classes*/

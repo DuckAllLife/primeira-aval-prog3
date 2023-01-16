@@ -19,6 +19,10 @@ aside span{
     justify-content: space-between;
 }
 
+aside span h3, aside span p{
+    margin: 0;
+}
+
 h5{
     font-style: italic;
 }

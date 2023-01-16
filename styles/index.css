@@ -22,11 +22,14 @@ article{
 /*Classes*/
 
 .presentation-section-home{
-    background-image: url(/img/index/index-image.jpg);
+    background: url(/img/index/index-image.jpg),  rgba(0, 0, 0, 1);;
+}
+
+.presentation-section-home h1, .presentation-section-home h2{
+    margin-left: 50px;
 }
 
 .presentation-section-home h2{
-    margin: 20px 0 30px 20px;
     width: 30%;
     font-weight: bolder;
 }

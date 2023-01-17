@@ -115,6 +115,33 @@ footer > span{
     }
 }
 
+footer .social-media{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 20px;
+    height: auto;
+}
+
+@media (min-width: 576px){
+    footer .social-media{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 20px;
+        column-gap: 20px;
+        height: auto;
+    }
+}
+
+footer .social-media h5{
+    margin: 0;
+}
+
+footer .social-media h5:hover{
+    text-decoration: underline;
+}
+
 /*IDs*/
 
 #current-page{
@@ -249,3 +276,34 @@ footer > span{
     'GRAD' 0,
     'opsz' 48
   }
+
+  .social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    height: 570px;
+    gap: 40px;
+}
+
+.social-media img{
+    width: 32px;
+    height: 32px;
+}
+
+.social-media span{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.social-media span h3{
+    margin: 0;
+}
+
+.social-media h3:hover{
+    text-decoration: underline;
+}

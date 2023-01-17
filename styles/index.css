@@ -98,6 +98,7 @@ article{
 }
 
 .presentation-section-home{
+    justify-content: space-between;
     background-image: url(/img/index/index-image.jpg);
 }
 
@@ -152,9 +153,9 @@ article{
     border-radius: 20px;
 }
 
-@media (min-width: 1400px){
+@media (min-width: 992px){
     .short-menu span img{
-        width: 32%;
+        height: 150px;
         border-radius: 20px;
     }
 }
@@ -162,4 +163,8 @@ article{
 .short-menu span p{
     font-style: italic;
     font-size: 18px;
+}
+
+.short-menu span p:hover{
+    font-weight: bolder;
 }

@@ -73,6 +73,10 @@ textarea{
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+#text-div:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 #text-div h2{
     font-size: 38px;
     margin-bottom: 0;
@@ -92,33 +96,6 @@ textarea{
     #text-div h3{
         font-size: 28px;
     }
-}
-
-#social-media{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
-    height: 570px;
-    gap: 40px;
-}
-
-#social-media img{
-    width: 32px;
-    height: 32px;
-}
-
-#social-media span{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-#social-media span h3{
-    margin: 0;
 }
 
 #div-inputs{

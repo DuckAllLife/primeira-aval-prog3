@@ -7,9 +7,17 @@ h3{
 /*IDs*/
 
 #simple-grid{
-    display: inline-grid;
-    grid-template-columns: 50% 50%;
+    display: grid;
+    grid-template-columns: 1fr;
     column-gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+@media (min-width:768px){
+    #simple-grid{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 #simple-grid img{
@@ -24,6 +32,20 @@ h3{
 
 #simple-grid #img{
     height: 425px;
+}
+
+#simple-grid div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:768px){
+    #simple-grid div{
+        margin-top: 0;
+    }
 }
 
 #presentation-section-about{
@@ -41,64 +63,74 @@ h3{
 }
 
 #head-chef{
-    background: url("../img/about/chefs/head-chef-image.png"),rgb(247, 181, 112);
+    background: url("../img/about/chefs/head-chef-image.png"),rgb(247, 181, 112, 0.5);
     background-size: cover;
     background-position-y: 50%;
 }
 
 #head-chef:hover{
-    background: url("../img/about/chefs/head-chef-image.png"), rgb(247, 181, 112, 0.5);
+    background: url("../img/about/chefs/head-chef-image.png"), rgb(254, 205, 153);
     background-size: cover;
     background-position-y: 50%;
 }
 
 #sous-chef{
-    background: url("../img/about/chefs/sous-chef-image.png"),rgb(247, 181, 112);
-    background-size: cover;
-    background-position-x: 30%;
-}
-
-#sous-chef:hover{
     background: url("../img/about/chefs/sous-chef-image.png"),rgb(247, 181, 112, 0.5);
     background-size: cover;
     background-position-x: 30%;
 }
 
-#restaurant-manager{
-    background: url("../img/about/chefs/restaurant-manager-image.png"), rgb(247, 181, 112);
+#sous-chef:hover{
+    background: url("../img/about/chefs/sous-chef-image.png"),rgb(254, 205, 153);
     background-size: cover;
-    background-position-x: 20%;
+    background-position-x: 30%;
 }
 
-#restaurant-manager:hover{
+#restaurant-manager{
     background: url("../img/about/chefs/restaurant-manager-image.png"), rgb(247, 181, 112, 0.5);
     background-size: cover;
     background-position-x: 20%;
 }
 
-#dessert-expert{
-    background: url("../img/about/chefs/dessert-expert-image.png"), rgb(247, 181, 112);
+#restaurant-manager:hover{
+    background: url("../img/about/chefs/restaurant-manager-image.png"), rgb(254, 205, 153);
     background-size: cover;
+    background-position-x: 20%;
 }
 
-#dessert-expert:hover{
+#dessert-expert{
     background: url("../img/about/chefs/dessert-expert-image.png"), rgb(247, 181, 112, 0.5);
     background-size: cover;
 }
 
-#pasta-expert{
-    background: url("../img/about/chefs/pasta-expert-image.png"),rgb(247, 181, 112);
+#dessert-expert:hover{
+    background: url("../img/about/chefs/dessert-expert-image.png"), rgb(254, 205, 153);
     background-size: cover;
-    background-position-x: 50%;
 }
 
-#pasta-expert:hover{
+#pasta-expert{
     background: url("../img/about/chefs/pasta-expert-image.png"),rgb(247, 181, 112, 0.5);
     background-size: cover;
     background-position-x: 50%;
 }
 
+#pasta-expert:hover{
+    background: url("../img/about/chefs/pasta-expert-image.png"),rgb(254, 205, 153);
+    background-size: cover;
+    background-position-x: 50%;
+}
+
 /*Classes*/
+
+@media(min-width: 1200px){
+    .little-row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        gap: 5%;
+    }
+}
 
 .chef-grid{
     display: grid;
@@ -116,8 +148,35 @@ h3{
 }
 
 .chef-grid div{
-    border: solid 3.5px #6b3801;
+    border: solid 8px #fff;
     border-radius: 50%;
-    height: 300px;
-    width: 300px;   
+    height: 180px;
+    width: 180px;
+}
+
+.chef-grid h3{
+    font-size: 20px;
+}
+
+@media (min-width:576px){
+    .chef-grid h3{
+        font-size: 28px;
+    }
+}
+
+.chef-grid h5{
+    font-size: 14px;
+}
+
+@media (min-width:576px){
+    .chef-grid h5{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 576px){
+    .chef-grid div{
+        height: 300px;
+        width: 300px;   
+    }
 }

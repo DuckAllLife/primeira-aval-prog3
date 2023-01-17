@@ -50,6 +50,7 @@ h5:hover{
 .presentation-section-menu{
     justify-content: space-between;
     background-image: url(/img/menu/menu-image.jpg);
+    background-position-y: 50%;
 }
 
 .little-row{

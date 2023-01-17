@@ -3,8 +3,6 @@
 /*Cores: 
 #FF8400
 #B35C00
-#0083B3
-#00BBFF
 */
 
 /*TAGS*/
@@ -20,10 +18,17 @@ header div{
 
 nav a{
     color: #ff8400;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
-    padding-left: 30px;
+    padding-right: 0.78rem;
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 576px){
+    nav a{
+        padding-right: 2rem;
+    }
 }
 
 nav a:hover{
@@ -36,17 +41,13 @@ main{
 }
 
 section{
-    margin: 20px 0;
+    margin: 1rem 0;
     text-align: center;
     padding: 5% 5%;
 }
 
 section:first-child{
-    margin: 0 0 20px;
-}
-
-section:last-child{
-    margin: 0px;
+    margin: 0 0 1rem;
 }
 
 h2{
@@ -98,10 +99,20 @@ footer div a:hover{
 
 footer > span{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
     width: 100%;
+}
+
+@media(min-width: 800px){
+    footer > span{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
 }
 
 /*IDs*/
@@ -132,45 +143,100 @@ footer > span{
     flex-direction: column;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position-x: 50%;
     text-align: left;
     height: 45rem;
 }
 
+@media (min-width: 768px){
+    .presentation-section{
+        background-position-x: 0;
+    }
+}
+
 .presentation-section div{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: left;
+}
+
+@media (min-width: 768px){
+    .presentation-section div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
 
 .presentation-section h1{
-    font-size: 128px;
+    font-size: 4rem;
     color: white;
     margin: 50px 0 30px 50px;
 }
 
+@media (min-width:580px){
+    .presentation-section h1{
+        font-size: 8rem;
+        color: white;
+        margin: 50px 0 30px 50px;
+    }
+}
+
 .little-row{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    text-align: left;
-    gap: 50px;
+    text-align: center;
+    gap: 5%;
+}
+
+@media(min-width: 1400px){
+    .little-row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        gap: 5%;
+    }
 }
 
 .little-row h2{
-    margin-top: 0;
+    margin-top: 40px;
+}
+
+@media(min-width: 1400px){
+    .little-row h2{
+        margin-top: 0;
+    }
 }
 
 .little-row h3{
-    width: 75%;
+    width: 100%;
     margin-bottom: 0;
+}
+
+@media (min-width: 1400px){
+    .little-row h3{
+        width: 75%;
+        margin-bottom: 0;
+    }
 }
 
 .little-row h5{
     font-size: 20px;
     font-weight: normal;
-    width: 75%;
+    width: 100%;
     margin-bottom: 50px;
+}
+
+@media (min-width: 1400px){
+    .little-row h5{
+        font-size: 20px;
+        font-weight: normal;
+        width: 75%;
+        margin-bottom: 50px;
+    }
 }
 
 .link-button{

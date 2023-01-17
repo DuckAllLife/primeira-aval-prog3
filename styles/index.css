@@ -1,28 +1,94 @@
 
 article{
     display: inline-grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 20px;
     margin-bottom: 50px;
+}
+
+@media (min-width: 768px){
+    article{
+        display: inline-grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: 20px;
+        row-gap: 20px;
+        margin-bottom: 50px;
+    }
 }
 
 /*IDs*/
 
+@media (min-width: 1400px){
+    #little-about{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        gap: 5%;
+    }
+}
+
 #little-about img{
-    height: 480px;
-    width: 400px;
+    height: 320px;
+    width: 280px;
     box-shadow: 3px 3px 10px black;
 }
 
+@media (min-width: 768px){
+    #little-about img{
+        height: 480px;
+        width: 360px;
+        box-shadow: 3px 3px 10px black;
+    }
+}
+
+#little-about div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+@media (min-width: 768px){
+    #little-about div{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 40px;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 1400px){
+    #little-about div{
+        gap: 5%;
+        width: auto;
+        margin-top: 0;
+    }
+}
+
 #little-contact img{
-    width: 640px;
+    width: 80%;
     box-shadow: 3px 3px 10px black;
+}
+
+@media (min-width: 768px){
+    #little-contact img{
+        box-shadow: 3px 3px 10px black;
+    }
 }
 
 /*Classes*/
 
 .presentation-section-home{
-    background: url(/img/index/index-image.jpg),  rgba(0, 0, 0, 1);;
+    background-image: url(/img/index/index-image.jpg);
 }
 
 .presentation-section-home h1, .presentation-section-home h2{
@@ -30,8 +96,15 @@ article{
 }
 
 .presentation-section-home h2{
+    font-size: 1.875rem;
     width: 30%;
     font-weight: bolder;
+}
+
+@media (min-width: 580px){
+    .presentation-section-home h2{
+        font-size: 3rem;
+    }
 }
 
 .short-menu{
@@ -59,13 +132,21 @@ article{
 .short-menu span{
     display: flex;
     flex-direction: row;
+    align-items: center;
     text-align: start;
     gap: 24px;
 }
 
 .short-menu span img{
-    width: 32%;
+    height: 100px;
     border-radius: 20px;
+}
+
+@media (min-width: 1400px){
+    .short-menu span img{
+        width: 32%;
+        border-radius: 20px;
+    }
 }
 
 .short-menu span p{

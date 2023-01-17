@@ -87,6 +87,16 @@ article{
 
 /*Classes*/
 
+@media(min-width: 1400px){
+    .little-row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        gap: 5%;
+    }
+}
+
 .presentation-section-home{
     background-image: url(/img/index/index-image.jpg);
 }

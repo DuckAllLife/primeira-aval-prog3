@@ -191,16 +191,6 @@ footer > span{
     gap: 5%;
 }
 
-@media(min-width: 1400px){
-    .little-row{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        text-align: left;
-        gap: 5%;
-    }
-}
-
 .little-row h2{
     margin-top: 40px;
 }

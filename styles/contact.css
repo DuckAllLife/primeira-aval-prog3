@@ -1,19 +1,19 @@
 /*Tags*/
 
-div{
+iframe, div{
     width: 100%;
 }
 
 input, textarea {
-    width: 80%;
-    padding: 2%;
+    width: 100%;
+    padding: 8px;
     font-family: "Sofia Sans";
     font-size: 1em;
     font-weight: 700;
 }
 
 input:last-of-type{
-    width: 30%;
+    width: 200px;
 }
 
 textarea{
@@ -41,6 +41,16 @@ textarea{
     background-position-y: 100%;
 }
 
+#time-div h2{
+    font-family: "Berkshire Swash";
+    color: #fff;
+    margin-top: 8px;
+}
+
+#time-div h3:last-of-type{
+    margin-bottom: 24px;
+}
+
 #text-div{
     display: flex;
     justify-content: end;
@@ -52,14 +62,24 @@ textarea{
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-#time-div h2{
-    font-family: "Berkshire Swash";
-    color: #fff;
-    margin-top: 8px;
+#text-div h2{
+    font-size: 38px;
 }
 
-#time-div h3:last-of-type{
-    margin-bottom: 24px;
+@media (min-width:576px){
+    #text-div h2{
+        font-size: 48px;
+    }
+}
+
+#text-div h3{
+    font-size: 20px;
+}
+
+@media (min-width:576px){
+    #text-div h3{
+        font-size: 28px;
+    }
 }
 
 #div-inputs{
@@ -83,6 +103,23 @@ textarea{
   'opsz' 48
 }
 
-.little-row{
-    align-items: flex-start
+.little-row div:first-of-type{
+    margin-bottom: 80px;
+}
+
+@media (min-width: 992px){
+    .little-row div:first-of-type{
+        margin-bottom: 0;
+    }
+}
+
+
+@media(min-width: 992px){
+    .little-row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        gap: 5%;
+    }
 }

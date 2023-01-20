@@ -1,7 +1,31 @@
 /*Tags*/
 
+nav a{
+    color: #ff8400;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding-right: 0.78rem;
+    margin-bottom: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media (min-width: 576px){
+    nav a{
+        padding-right: 2rem;
+    }
+}
+
+nav a:hover{
+    color: #e67802;
+}
+
 h3{
-    margin-top: 80px;
+    margin-top: 50px;
+}
+
+section:last-of-type{
+    margin-bottom: 0px;
 }
 
 /*IDs*/
@@ -125,6 +149,7 @@ h3{
     flex-direction: column;
     text-align: left;
     gap: 50px;
+    margin-bottom: 100px;
 }  
 
 #restaurant-amenities div{
@@ -168,6 +193,130 @@ h3{
     margin: 0;
 }
 
+#carousel-section{
+    padding: 0 5%;
+    background-color: rgb(254, 205, 153);
+}
+
+#carousel-section h2{
+    color:#6b3801;
+    font-size: 28px;
+    margin: 80px 0 0 0;
+    text-decoration: underline;
+}
+
+@media (min-width:576px){
+    #carousel-section h2{
+        font-size: 48px;
+    }
+}
+
+#carousel-section .carousel-inner{
+    padding: 7%;
+}
+
+#carousel-section .carousel-item{
+    text-align: center;
+}
+
+#carousel-section .carousel-item div{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position-y: 10%;
+    background-position-x: 49%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    background-color: #FF8400;
+}
+
+@media(min-width:576px){
+    #carousel-section .carousel-item div{
+        background-position-x: 50%;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+#carousel-section .carousel-item h3{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+@media(min-width:576px){
+    #carousel-section .carousel-item h3{
+        margin-top: 50px;
+        margin-bottom: 0;
+        font-size: 28px;
+    }
+}
+
+#carousel-section button span{
+    background-color: #6b3801;
+}
+
+#social-media-lady-image{
+    background: url(../img/about/social-media-people/social-media-lady.png) #FF8400;
+}
+
+#social-media-man-image{
+    background: url(../img/about/social-media-people/social-media-man.png) #FF8400;
+}
+
+#social-media-woman-image{
+    background: url(../img/about/social-media-people/social-media-woman.png) #FF8400;
+}
+
+/*Corrigindo o que foi mudado pelo Bootstrap*/
+
+#h1-id{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 4rem;
+    color: white;
+    margin: 50px 0 30px 50px;
+}
+
+@media (min-width:580px){
+    #h1-id{
+        font-size: 8rem;
+        color: white;
+        margin: 50px 0 30px 50px;
+    }
+}
+
+#h2-id{
+    color: #ff8400;
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#h3-id{
+    font-size: 28px;
+    font-family: "Sofia Sans";
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+#h5-id{
+    font-size: 20px;
+    font-family: "Sofia Sans";
+    font-weight: normal;
+    width: 75%;
+    margin-top: 30px;
+}
+
+
+#p-id{
+    margin: 52px 0;
+    line-height: normal;
+    font-weight: normal;
+}
+
 /*Classes*/
 
 @media(min-width: 1200px){
@@ -202,6 +351,13 @@ h3{
     width: 180px;
 }
 
+@media (min-width: 576px){
+    .chef-grid div{
+        height: 300px;
+        width: 300px;   
+    }
+}
+
 .chef-grid h3{
     font-size: 20px;
 }
@@ -219,12 +375,5 @@ h3{
 @media (min-width:576px){
     .chef-grid h5{
         font-size: 20px;
-    }
-}
-
-@media (min-width: 576px){
-    .chef-grid div{
-        height: 300px;
-        width: 300px;   
     }
 }

@@ -23,12 +23,12 @@ aside span h3, aside span p{
     margin: 0;
 }
 
-h5{
-    font-style: italic;
+aside h5:hover{
+    font-weight: bolder;
 }
 
-h5:hover{
-    font-weight: bolder;
+h5{
+    font-style: italic;
 }
 
 /*IDs*/
@@ -140,5 +140,5 @@ h5:hover{
 }
 
 .price::before{
-    content: "$";
+    content: "R$";
 }

@@ -1,5 +1,13 @@
 /*Tags*/
 
+a{
+    color: #ff8400;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 nav a{
     color: #ff8400;
     font-size: 1.5rem;

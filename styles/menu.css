@@ -69,7 +69,7 @@ h5{
 
 .presentation-section-menu{
     justify-content: space-between;
-    background-image: url(/img/menu/menu-image.jpg);
+    background-image: url(../img/menu/menu-image.jpg);
     background-position-y: 50%;
 }
 

@@ -99,7 +99,7 @@ article{
 
 .presentation-section-home{
     justify-content: space-between;
-    background-image: url(/img/index/index-image.jpg);
+    background-image: url(../img/index/index-image.jpg);
 }
 
 .presentation-section-home h1, .presentation-section-home h2{

@@ -1,7 +1,7 @@
 # primeira-aval-prog3
 ## Primeiro Exame Avaliativo de Programação III - Criação de um website, utilizando HTML5 e CSS3 (opcional: Bootstrap)
 
-Tema escolhido a criação do site: Restaurante
+Tema escolhido para a criação do site: Restaurante
 
 ## [Acesse o site aqui!](https://duckalllife.github.io/primeira-aval-prog3/)
 

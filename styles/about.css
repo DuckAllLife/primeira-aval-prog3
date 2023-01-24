@@ -314,8 +314,14 @@ section:last-of-type{
     font-size: 20px;
     font-family: "Sofia Sans";
     font-weight: normal;
-    width: 75%;
+    width: 100%;
     margin-top: 30px;
+}
+
+@media(min-width:1200px){
+    #h5-id{
+        width: 75%;
+    }
 }
 
 

@@ -3,9 +3,9 @@
 
 Tema escolhido para a criação do site: Restaurante
 
-## [Acesse o site aqui!](https://duckalllife.github.io/primeira-aval-prog3/)
+<!--## [Acesse o site aqui!](https://duckalllife.github.io/primeira-aval-prog3/)--->
 
-//## Imagens do Site:
+## Imagens do Site:
 
 Index.html
 
